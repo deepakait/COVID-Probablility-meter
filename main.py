@@ -13,9 +13,9 @@ file.close()
 def hello_world():
     if request.method == "POST":
         mydict = request.form.to_dict(flat=False)
-        print("________________________--")
+        print("________________________")
         print(mydict['fever'][0])
-        print("________________________--")
+        print("________________________")
         # fever = mydict['fever']
         # age = mydict['age']
         # Pain = mydict['Pain']
